@@ -132,7 +132,7 @@ loader.load( 'models/Watering-Can.glb', function ( gltf ) {
     } );
     
 
-    let maxwell;
+let maxwell;
 
 loader.load('models/Maxwell.glb', function (gltf) {
     gltf.scene.scale.set(0.35,0.35,0.35)
